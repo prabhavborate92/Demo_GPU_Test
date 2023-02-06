@@ -12,7 +12,7 @@ plt.hist(myarr, bins=40)
 plt.show()
 
 import os
-os.chdir(/home/pgb5080/output)
+os.chdir("/home/pgb5080/output")
 
 f = open("sum.txt", "w")
 f.write(str(sum))
