@@ -10,3 +10,9 @@ f1 = open('myarr.txt', 'r')
 print(f1.read())
 f1.close()
 
+A = f-f
+print(A)
+
+B = f1-f1
+print(B)
+
