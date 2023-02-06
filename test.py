@@ -12,6 +12,11 @@ plt.hist(myarr, bins=40)
 plt.show()
 
 #cd /home/pgb5080/output
-sum.to_csv("sum.csv", index=False)
-myarr.to_csv("myarr.csv", index=False)
 
+f = open("sum.txt", "w")
+f.write(str(sum))
+f.close()
+
+f = open("myarr.txt", "w")
+f.write(str(myarr))
+f.close()
